@@ -83,7 +83,7 @@
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(345, 75);
             this.richTextBox1.TabIndex = 3;
-            this.richTextBox1.Text = "1、请将博客园个人主页的网址输入\n2、点击按钮，就可以生成二维码\n3、右键点击二维码，可进行复制";
+            this.richTextBox1.Text = "在下方输入，点击”生成二维码“即可。\n网址前方加上http之类的，扫码可直接进入。\n点击图片，可以将图片保存";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // pictureBox2
@@ -104,13 +104,13 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(130, 30);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(124, 28);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(181, 26);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(123, 24);
             this.toolStripMenuItem1.Text = "另存为";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
